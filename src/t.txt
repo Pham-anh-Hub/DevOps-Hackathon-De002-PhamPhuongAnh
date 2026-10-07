@@ -1,0 +1,23 @@
+
+
+Tạo 1 file giao  diện index.html đơn giản bằng editor nano:
+
+	nano /var/www/ptit-app/html/index.html
+
+Dán đoạn mã HTML sau vào file (VD):
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Chào mừng tới K24 PTIT DevOps</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; margin-top: 100px; background-color: #f4f4f9; }
+        h1 { color: #d32f2f; }
+    </style>
+</head>
+<body>
+    <h1>Chào mừng các bạn đến với học phần DevOps Basics!</h1>
+    <p>Hệ thống Web Server Nginx đã được cài đặt và cấu hình thành công.</p>
+</body>
+</html>
